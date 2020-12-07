@@ -7,4 +7,4 @@ You can add images to your status from our database to use in your status, and y
 
 If you feel that something should be added to this code, please feel free to make a pull request. We love feedback and want to make the experience as pleasant as we can.
 
-You can also submit images to be added to the RPC list, although we do have a limit. If you want to submit an image for consideration, create an issue with the flag 
+You can also submit images to be added to the RPC list, although we do have a limit. If you want to submit an image for consideration, create an issue with the flag `Feature Request`
