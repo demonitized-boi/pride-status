@@ -80,7 +80,7 @@ app.get("/discord", async (request, response) => {
 		});
 	})
 	client.login({ clientId });
-	response.status(200)
+	response.status(200).send('Successfully set status. HTTP code 200')
 });
 const listener = app.listen("4242", () => {
 	console.log("Your app is listening on port " + listener.address().port);
