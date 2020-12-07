@@ -3,7 +3,6 @@
 		<title>Discord RPC</title>
 		<script src="/client.js"></script>
 		<link rel="stylesheet" href="/style.css">
-    <meta name="description" content="Discord RPC control panel"
 	</head>
 	<body>
 		<form action="/discord">
@@ -25,13 +24,16 @@
 			<input type="radio" id="NONBINARY_PRIDE" value="BINARY" name="status">
 			<label for="NONBINARY_PRIDE">Nonbinary Pride</label>
 			<br>
-			<input type="text" maxlength="128" id="CUSTOM" placeholder="Type a MOTD here..." name="custom">
+			<input type="text" maxlength="128" id="CUSTOM" placeholder="Type a MOTD here..." name="custom" class="txtinput">
 			<label for="CUSTOM">MOTD (Defaults to a famous quote)</label>
 			<br>
-			<input type="submit" value="Set status">
-			<input type="reset" value="Reset Status">
+			<br>
+			<input type="submit" value="Set status" class="txtinput">
+			<input type="reset" value="Reset Status" class="txtinput">
+			<br>
 			<hr>
-			<input type="datetime-local" id="ENDTIME" name="timestamp">
+			<br>
+			<input type="datetime-local" id="ENDTIME" name="timestamp" class="txtinput">
 			<label for="ENDTIME">End Timestamp (if blank, does not display a timestamp)</label>
 		</form>
 	</body>
