@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Discord RPC</title>
+		<script src="/client.js"></script>
+		<link rel="stylesheet" href="/style.css">
+    <meta name="description" content="Discord RPC control panel"
+	</head>
+	<body>
+		<form action="/discord">
+			<input type="radio" id="GAY_PRIDE" value="GAY" name="status" required>
+			<label for="GAY_PRIDE">Gay Pride</label>
+			<br>
+			<input type="radio" id="BI_PRIDE" value="BI" name="status">
+			<label for="BI_PRIDE">Bisexual Pride</label>
+			<br>
+			<input type="radio" id="TRANS_PRIDE" value="TRANS" name="status">
+			<label for="TRANS_PRIDE">Transgender Pride</label>
+			<br>
+			<input type="radio" id="PAN_PRIDE" value="PAN" name="status">
+			<label for="PAN_PRIDE">Pansexual Pride</label>
+			<br>
+			<input type="radio" id="ACE_PRIDE" value="ACE" name="status">
+			<label for="ACE_PRIDE">Asexual Pride</label>
+			<br>
+			<input type="radio" id="NONBINARY_PRIDE" value="BINARY" name="status">
+			<label for="NONBINARY_PRIDE">Nonbinary Pride</label>
+			<br>
+			<input type="text" maxlength="128" id="CUSTOM" placeholder="Type a MOTD here..." name="custom">
+			<label for="CUSTOM">MOTD (Defaults to a famous quote)</label>
+			<br>
+			<input type="submit" value="Set status">
+			<input type="reset" value="Reset Status">
+			<hr>
+			<input type="datetime-local" id="ENDTIME" name="timestamp">
+			<label for="ENDTIME">End Timestamp (if blank, does not display a timestamp)</label>
+		</form>
+	</body>
+</html>
