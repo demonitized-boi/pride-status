@@ -11,3 +11,14 @@ You can also submit images to be added to the RPC list, although we do have a li
 
 # IMPORTANT #
 In order to use this you need Node JS installed. You can download it for free [by clicking here](https://nodejs.org/en/). 
+
+### System requirements ###
+1. Minimum 8 MB of free drive space.
+2. Discord application (any of these will work).
+  2. [Discord](https://discord.com/download)
+  2. [Discord PTB](https://ptb.discord.com/download)
+  2. [Discord Canary](https://canary.discord.com/download)
+3. Node JS.
+  3. [Node JS website](https://nodejs.org/)
+4. Minimum 8GB of RAM.
+  4. I suggest at least 16GB, however 8GB should work as well.
