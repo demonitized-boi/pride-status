@@ -6,7 +6,7 @@ When you set a status, an image will be chosen to be used in your status. You wi
 
 If you feel that something should be added to this code, please feel free to make a pull request. We love feedback and want to make the experience as pleasant as we can.
 
-You can also submit images to be added to the RPC list, although we do have a limit. If you want to submit an image for consideration, create an issue with the flag `Feature Request`
+You can also submit images to be added to the RPC list, although we do have a limit (50). If you want to submit an image for consideration, create an issue with the flag `Feature Request`
 
 
 # IMPORTANT #
